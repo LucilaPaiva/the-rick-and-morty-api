@@ -107,7 +107,7 @@ todos.addEventListener("click", (e) => {
 
 const pagination = async (promesa) => {
   const result = await promesa;
-  console.log(result);
+  //console.log(result);
   nextPage.addEventListener("click", () => {
     pagina += 1;
     getData();
